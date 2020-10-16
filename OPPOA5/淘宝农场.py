@@ -55,6 +55,7 @@ class TaobaoFarm:
             time.sleep(5)  # 加载5秒
             self.click(0.572, 0.288)  # 获取阳光
             self.click(0.073, 0.06)  # 左上角返回
+            print_c(fred, f'还剩余{30 - _}个阳光未偷')
             time.sleep(1)
 
     # 领取产物,每一分钟一次
